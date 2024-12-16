@@ -34,8 +34,12 @@ config.font = wezterm.font_with_fallback({
 	"Fira Code",
 	"Iosevka Nerd Font",
 })
-config.font =
-	wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "DemiBold", stretch = "Normal", style = "Normal" })
+
+config.font = wezterm.font("JetBrainsMono Nerd Font Mono", {
+	weight = "DemiBold",
+	stretch = "Normal",
+	style = "Normal",
+})
 
 config.color_scheme = "tokyonight"
 config.enable_tab_bar = false
